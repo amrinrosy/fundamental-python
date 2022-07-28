@@ -4,6 +4,7 @@ def tambah_belanja(text):
     file = open('belanja.txt','a+')
     file.write('\n' + text)
 
+
 #list belanja
 def daftar_belanja():
     file =open('belanja.txt', 'a+')
